@@ -1,0 +1,25 @@
+header {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 30px;
+    background-color: orangered;
+    margin-bottom: 30px;
+}
+
+ul {
+    margin: 0px;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}

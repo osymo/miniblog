@@ -1,0 +1,22 @@
+.PostWrapper {
+    width: 750px;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1.5px dashed #ccc;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.PostHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.PostWrapper h3 {
+    margin-top: 0px;
+}
+
+.PostWrapper img {
+    border-radius: 15px;
+}

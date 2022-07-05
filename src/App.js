@@ -2,14 +2,15 @@ import { Outlet } from 'react-router-dom';
 
 import './App.css';
 
-import { Home } from './pages'
 import {Header, Footer} from './partials'
 
 function App() {
   return (
     <div className="App">
       <Header/>
-        <Outlet/>
+        <section className='Container'>
+          <Outlet/>
+        </section>
       <Footer/>
     </div>
   );

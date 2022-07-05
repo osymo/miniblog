@@ -6,7 +6,11 @@ import './Header.css'
 export function Header() {
   return (
 
-      <nav>
+      <header>
+        <div>
+          <span>Je suis le Logo</span>
+        </div>
+        <nav>
           <ul>
             <li>
               <Link to="/">Home</Link>
@@ -24,6 +28,7 @@ export function Header() {
               <Link to="/users">Deconnexion</Link>
             </li>
           </ul>
-    </nav>
+        </nav>
+      </header>
   );
 }

@@ -1,0 +1,32 @@
+form {
+    width: 750px;
+    margin: auto;
+}
+
+.NewPostLabel {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.NewPostWrapper {
+    margin-top: 20px;
+}
+
+.NewPost {
+    font-size: 17px;
+    resize: none;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.NewPostButton {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    box-shadow: 0.5px 1px 2px #444;
+}
